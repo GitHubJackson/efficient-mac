@@ -35,24 +35,44 @@
 
 ```
 cd ~/.oh-my-zsh/plugins
-git clone [插件]
+git clone [插件仓库]
 ```
 
-然后在 zshrc 中修改插件代码
+然后在 `~/.zshrc` 文件中修改代码
 
 ```
-plugins=(web-search zsh-autosuggestions) // 空格间隔
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search) // 空格间隔
 ```
 
 - [zsh-syntax-highlighting](https://github.com/unixorn/awesome-zsh-plugins)。高亮命令行
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+```
+
 - [zsh-autosuggestions](https://github.com/unixorn/awesome-zsh-plugins)。自动补全命令行
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+```
+
 - [web-search](https://github.com/sinetoami/web-search.git)。快速 google、百度等
+
+```
+git clone https://github.com/sinetoami/web-search.git
+```
 
 > 也可以尝试用另一个 https://github.com/lesonky/web-search, 这个还支持知乎、mdn 等搜索
 
 不过貌似都还不支持搜索中文内容 emmm，提了 issue，看看后续有没有办法解决：https://github.com/sineto/web-search/issues/3
 
 - [autojump](https://github.com/unixorn/awesome-zsh-plugins)。快速跳转到路径
+
+```
+git clone https://github.com/sinetoami/web-search.git
+```
+
+> 其他插件可以在这里找：https://github.com/unixorn/awesome-zsh-plugins
 
 ## 前端开发相关
 
