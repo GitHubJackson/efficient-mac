@@ -85,6 +85,7 @@ git clone https://github.com/wting/autojump.git
 - node。前端必备的运行环境，包括 npm，建议通过 homebrew 安装
 - nrm。管理 git 源，比如 taobao、cnpm...建议通过 npm 全局安装
 - nvm。管理 node 版本
+- nodemon。监听 node 应用代码，如果有改动会重新启动应用
 
 ### 数据库管理
 
