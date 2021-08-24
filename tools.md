@@ -44,13 +44,13 @@ git clone [插件仓库]
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search) // 空格间隔
 ```
 
-- [zsh-syntax-highlighting](https://github.com/unixorn/awesome-zsh-plugins)。高亮命令行
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting.git)。高亮命令行
 
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 ```
 
-- [zsh-autosuggestions](https://github.com/unixorn/awesome-zsh-plugins)。自动补全命令行
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions.git)。自动补全命令行
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
@@ -66,10 +66,10 @@ git clone https://github.com/sinetoami/web-search.git
 
 不过貌似都还不支持搜索中文内容 emmm，提了 issue，看看后续有没有办法解决：https://github.com/sineto/web-search/issues/3
 
-- [autojump](https://github.com/unixorn/awesome-zsh-plugins)。快速跳转到路径
+- [autojump](https://github.com/wting/autojump.git)。快速跳转到路径
 
 ```
-git clone https://github.com/sinetoami/web-search.git
+git clone https://github.com/wting/autojump.git
 ```
 
 > 其他插件可以在这里找：https://github.com/unixorn/awesome-zsh-plugins
